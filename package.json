@@ -1,0 +1,34 @@
+{
+  "name": "pepark",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.14.3",
+    "axios": "^1.8.4",
+    "mongoose": "^8.13.2",
+    "next": "15.3.0",
+    "next-auth": "^4.24.11",
+    "openai": "^4.93.0",
+    "prismjs": "^1.30.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-markdown": "^10.1.0",
+    "svix": "^1.64.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
