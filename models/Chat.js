@@ -12,7 +12,7 @@ const ChatSchema = new mongoose.Schema(
 
             },
         ],
-        userId: {type: stringify, required: true},
+        userId: { type: String, required: true },
     },
     {timestamps: true}
 );
